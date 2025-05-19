@@ -39,7 +39,11 @@
 
 # replace cmd_vel_bridge
 - topic_name: "cmd_vel"
+<<<<<<< HEAD
   ros_type_name: "geometry_msgs/msg/Twist"
+=======
+  ros_type_name: "geometry_msgs/msg/TwistStamped"
+>>>>>>> main
   gz_type_name: "gz.msgs.Twist"
   direction: ROS_TO_GZ
 
